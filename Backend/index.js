@@ -23,13 +23,7 @@ const connectDB = async () => {
 };
 
 // Middleware
-app.use(cors(
-  {
-    origin:["https://book-store-frontend-amber.vercel.app"],
-    methods:["POST", "GET"],
-    credentials:true
-  }
-));
+app.use(cors());
 app.use(express.json());
 
 // Routes
