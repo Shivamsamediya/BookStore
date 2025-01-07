@@ -1,0 +1,86 @@
+// Sample book data
+const booksData = [
+    {
+        "name":"Story Book",
+        "title":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":"00",
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?t=st=1718955394~exp=1718958994~hmac=2a161af86ce2d76a862a6ebfbd8fd5a49440ecdb2962fc3b4bb5b05248a79a58&w=900"
+    },
+
+    {
+        "name":"Comedy Book",
+        "title":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":"20",
+        "category":"Entertainment",
+        "image":"https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?t=st=1718955394~exp=1718958994~hmac=2a161af86ce2d76a862a6ebfbd8fd5a49440ecdb2962fc3b4bb5b05248a79a58&w=900"
+    },
+
+    {
+        "name":"Sports Book",
+        "title":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":"50",
+        "category":"Sports",
+        "image":"https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?t=st=1718955394~exp=1718958994~hmac=2a161af86ce2d76a862a6ebfbd8fd5a49440ecdb2962fc3b4bb5b05248a79a58&w=900"
+    },
+
+    {
+        "name":"Music Book",
+        "title":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":"100",
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?t=st=1718955394~exp=1718958994~hmac=2a161af86ce2d76a862a6ebfbd8fd5a49440ecdb2962fc3b4bb5b05248a79a58&w=900"
+    },
+
+    {
+        "name":"Comic Book",
+        "title":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":"00",
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?t=st=1718955394~exp=1718958994~hmac=2a161af86ce2d76a862a6ebfbd8fd5a49440ecdb2962fc3b4bb5b05248a79a58&w=900"
+    },
+
+    
+    {
+        "name":"Story Book",
+        "title":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":"00",
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?t=st=1718955394~exp=1718958994~hmac=2a161af86ce2d76a862a6ebfbd8fd5a49440ecdb2962fc3b4bb5b05248a79a58&w=900"
+    },
+
+    {
+        "name":"Comedy Book",
+        "title":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":"20",
+        "category":"Entertainment",
+        "image":"https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?t=st=1718955394~exp=1718958994~hmac=2a161af86ce2d76a862a6ebfbd8fd5a49440ecdb2962fc3b4bb5b05248a79a58&w=900"
+    },
+
+    {
+        "name":"Sports Book",
+        "title":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":"50",
+        "category":"Sports",
+        "image":"https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?t=st=1718955394~exp=1718958994~hmac=2a161af86ce2d76a862a6ebfbd8fd5a49440ecdb2962fc3b4bb5b05248a79a58&w=900"
+    },
+
+    {
+        "name":"Music Book",
+        "title":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":"100",
+        "category":"Song",
+        "image":"https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?t=st=1718955394~exp=1718958994~hmac=2a161af86ce2d76a862a6ebfbd8fd5a49440ecdb2962fc3b4bb5b05248a79a58&w=900"
+    },
+
+    {
+
+        "name":"Comic Book",
+        "title":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":"00",
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?t=st=1718955394~exp=1718958994~hmac=2a161af86ce2d76a862a6ebfbd8fd5a49440ecdb2962fc3b4bb5b05248a79a58&w=900"
+    }
+
+];
+export default booksData;
