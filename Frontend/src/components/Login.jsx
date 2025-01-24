@@ -15,7 +15,7 @@ function Login() {
 
   const onSubmit = async (data) => {
     try {
-      const res = await axios.post('http://localhost:4001/user/login', data);
+      const res = await axios.post('https://book-store-backend-weld.vercel.app/user/login', data);
       if (res.data) {
         toast.success('Successfully Logged in!!');
         document.getElementById('my_modal_3').close();
