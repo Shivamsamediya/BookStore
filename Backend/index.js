@@ -19,11 +19,15 @@ const PORT = 4001; // Use environment variable for PORT if available
 // Middleware
 app.use(cors(
   {
-    origin:["https://book-store-frontend-alpha-three.vercel.app"],
+    origin:["http://localhost:5173"],
     methods:["POST", "GET"],
     credentials:true
   }
 ));
+
+app.get('/', (req,res,next) =>{
+    res.send("Hello");
+});
 
 app.use(express.json());
 
