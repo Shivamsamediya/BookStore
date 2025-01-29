@@ -21,7 +21,7 @@ function Signup() {
     };
 
     try {
-      const res = await axios.post('https://book-store-backend-weld.vercel.app/user/signup', userData);
+      const res = await axios.post('https://book-store-bend.vercel.app/user/signup', userData);
       if (res.data) {
         toast.success('Signup successful!!');
         localStorage.setItem('Users', JSON.stringify(res.data.user));

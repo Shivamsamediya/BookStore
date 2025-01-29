@@ -19,7 +19,7 @@ const PORT = 4001; // Use environment variable for PORT if available
 // Middleware
 app.use(cors(
   {
-    origin:["http://localhost:5173"],
+    origin:["http://localhost:5173","https://book-store-fend.vercel.app"],
     methods:["POST", "GET"],
     credentials:true
   }
